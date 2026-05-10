@@ -1,0 +1,16 @@
+{
+  "name": "saber-investment",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cargo tauri dev",
+    "build": "cargo tauri build",
+    "web:dev": "trunk serve --config Trunk.toml",
+    "web:build": "trunk build --config Trunk.toml",
+    "test": "cargo test"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.10.0"
+  }
+}
